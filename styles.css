@@ -1,0 +1,146 @@
+*{
+    
+    opacity: 0.9;
+
+}
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    text-align: center;
+    background-color: black;
+
+}
+
+.header {
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    min-height: 69px;
+    display: flex;
+    width: 100%;
+    opacity: 1;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    background-color: black;
+    top: 0;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar img {
+    padding-left: 10px;
+    height: 50px;
+    padding: 10px;
+    
+}
+
+li {
+    display: inline;
+    align-items: flex-start;    
+
+}
+
+a{
+    text-decoration: underline;
+    color: seashell;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.mission {
+    position: relative;
+    width: 90%;
+    max-height: 700px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex: 1 1200px;
+    padding-bottom: 60px;
+
+}
+
+.mission h2, h4 {
+    background-color: black;
+    text-align: center;
+    width: 1200px;
+}
+
+.center {
+    background-color: black;
+    position: absolute;
+    top: 50;
+    bottom: 50%;
+    width: 1200px;
+}
+
+.featured {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-around;
+    flex-basis: 300px;
+    margin: 0 auto;
+    flex: 1 1000px;
+    margin-bottom: 40px;
+
+}
+
+.box {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: center;
+    max-height: 200px;
+    max-width: 300px;
+    margin: 15px;
+    padding-bottom: 20px;
+    
+}
+
+.location {
+    height: 500px;
+    max-width: 1200px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*15sz6et*_ga*MjE0NzIzODU5OC4xNjQ5OTQ2MTkw*_ga_3LRZM6TM9L*MTY1ODk0MzQ1MS4xMDYuMS4xNjU4OTQzOTA0LjU3);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    margin-left: 150px;
+;
+    
+}
+#locationContainer {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.places {
+    min-height: 300px;
+    width: 300px;
+    margin: 15px 40px;
+    padding: 0px 10px;
+    opacity: 1;
+    background-color: black;
+    line-height: 65px;
+}
+
+.footer {
+    height: 200px;
+    padding-left: 20px;
+    line-height: 50px;
+}
+
+.copywrite {
+    text-align: left;
+    padding-left: 10px;
+}
